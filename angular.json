@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "Todo:build:production",
+            "firebaseProject": "todolist-8ef40",
+            "firebaseHostingSite": "todolist-8ef40"
+          }
         }
       }
     }
